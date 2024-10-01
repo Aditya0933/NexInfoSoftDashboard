@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/sidebar'; 
 import Dashboard from './pages/Dashboard'; 
 import CreateCompany from './pages/CreateCompany';
+import ProductionReport from './pages/ProductionReportPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/create-company" element={<CreateCompany />} />
+            <Route path="/production-report" element={<ProductionReport />} />
             {/* Add more routes here */}
           </Routes>
         </div>

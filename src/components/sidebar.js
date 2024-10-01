@@ -144,7 +144,7 @@ const Sidebar = () => {
 
           {/* Reports */}
           <li className="mb-4">
-            <Link to="/reports" className="flex items-center p-2 text-blue-600 hover:bg-blue-100 rounded-md transition-all">
+            <Link to="/production-report" className="flex items-center p-2 text-blue-600 hover:bg-blue-100 rounded-md transition-all">
               <FaFileAlt className="text-xl" />
               <span className={`ml-4 ${isOpen ? 'block' : 'hidden'}`}>Reports</span>
             </Link>

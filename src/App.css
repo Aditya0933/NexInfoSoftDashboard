@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.ant-table {
+  border: 0.01px solid  #c7c7c7 !important; /* Example: change table border */
+}
+
+.ant-table th.ant-table-cell {
+  background-color: #1D4ED8 !important; /* Use !important if necessary */
+  color: #FFFFFF !important; /* Use !important if necessary */
+}
+
+
+.ant-table td {
+  padding: 16px; /* Change cell padding */
+  font-size: 14px; /* Change font size */
+}
+
+.ant-btn {
+  background-color: #007bff; /* Change button background */
+  color: #fff; /* Change button text color */
+}
